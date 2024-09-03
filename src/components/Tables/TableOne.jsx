@@ -93,8 +93,8 @@ const TableOne = () => {
             }`}
             key={key}
           >
-            <div className="flex items-center gap-3 p-2.5 xl:p-5">
-              <div className="flex-shrink-0">
+            <div className="flex  items-center gap-3 p-2.5 xl:p-5">
+              <div className="w-12 flex-shrink-0">
                 <img src={brand.logo} alt="Brand" />
               </div>
               <p className="hidden text-black dark:text-white sm:block">
@@ -107,7 +107,7 @@ const TableOne = () => {
             </div>
 
             <div className="flex items-center justify-center p-2.5 xl:p-5">
-              <p className="text-meta-3">${brand.revenues}</p>
+              <p className="text-meta-3">₹{brand.revenues}</p>
             </div>
 
             <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">

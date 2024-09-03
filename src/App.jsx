@@ -3,18 +3,16 @@ import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import Loader from "./common/Loader";
 import PageTitle from "./components/PageTitle";
 import DefaultLayout from "./layout/DefaultLayout";
-
 import Calendar from "./pages/Calendar";
 import Chart from "./pages/Chart";
 import ECommerce from "./pages/Dashboard/ECommerce";
 import FormElements from "./pages/Form/FormElements";
 import FormLayout from "./pages/Form/FormLayout";
-import Profile from "./pages/Profile";
 import Inquiry from "./pages/Inquiry";
 import Tables from "./pages/Tables";
 import Alerts from "./pages/UiElements/Alerts";
 import Buttons from "./pages/UiElements/Buttons";
-
+import Subscriptions from "./pages/Subscriptions"
 import LogIn from "./common/Login/Login";
 
 function App() {
@@ -71,11 +69,11 @@ function App() {
           }
         />
         <Route
-          path="/profile"
+          path="/subscriptions"
           element={
             <>
-              <PageTitle title="Profile | TailAdmin - Tailwind CSS Admin Dashboard Template" />
-              <Profile />
+              <PageTitle title="Subscriptions | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <Subscriptions />
             </>
           }
         />
