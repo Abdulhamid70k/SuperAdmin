@@ -1,14 +1,14 @@
 
-import BrandOne from '../../images/brand/brand-01.svg';
-import BrandTwo from '../../images/brand/brand-02.svg';
-import BrandThree from '../../images/brand/brand-03.svg';
-import BrandFour from '../../images/brand/brand-04.svg';
-import BrandFive from '../../images/brand/brand-05.svg';
+import BrandOne from '../../images/brand/Goibibo.png';
+import BrandTwo from '../../images/brand/Booking.png';
+import BrandThree from '../../images/brand/mmt.png';
+import BrandFour from '../../images/brand/Agoda.png';
+import BrandFive from '../../images/brand/airbnb.png';
 
 const brandData = [
   {
     logo: BrandOne,
-    name: 'Google',
+    name: 'Goibibo',
     visitors: 3.5,
     revenues: '5,768',
     sales: 590,
@@ -16,7 +16,7 @@ const brandData = [
   },
   {
     logo: BrandTwo,
-    name: 'Twitter',
+    name: 'Booking.com',
     visitors: 2.2,
     revenues: '4,635',
     sales: 467,
@@ -24,7 +24,7 @@ const brandData = [
   },
   {
     logo: BrandThree,
-    name: 'Github',
+    name: 'Make My Trip',
     visitors: 2.1,
     revenues: '4,290',
     sales: 420,
@@ -32,7 +32,7 @@ const brandData = [
   },
   {
     logo: BrandFour,
-    name: 'Vimeo',
+    name: 'Agoda',
     visitors: 1.5,
     revenues: '3,580',
     sales: 389,
@@ -40,7 +40,7 @@ const brandData = [
   },
   {
     logo: BrandFive,
-    name: 'Facebook',
+    name: 'AirBnB',
     visitors: 3.5,
     revenues: '6,768',
     sales: 390,
