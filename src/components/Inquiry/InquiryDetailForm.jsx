@@ -10,6 +10,7 @@ const InquiryDetailForm = ({ inquiry }) => {
         <InputField label="Phone Number" value={inquiry.phoneNumber} />
         <InputField label="Work Email" value={inquiry.email} />
         <InputField label="Property Type" value={inquiry.propertyType} />
+        <InputField label="Number of Properties" value={inquiry.NumerOfProperties} />
       </div>
       <div>
         <label htmlFor="remarks" className="block text-sm font-medium text-gray-700 dark:text-bodydark mb-1">
