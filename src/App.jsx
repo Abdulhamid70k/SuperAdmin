@@ -12,7 +12,7 @@ import Inquiry from "./pages/Inquiry";
 import Tables from "./pages/Tables";
 import Alerts from "./pages/UiElements/Alerts";
 import Buttons from "./pages/UiElements/Buttons";
-import Subscriptions from "./pages/Subscriptions"
+import Subscriptions from "./pages/Subscription/Subscriptions"
 import LogIn from "./common/Login/Login";
 
 function App() {
